@@ -12,16 +12,4 @@
   <img height= "180em" src = "https://github-readme-stats.vercel.app/api/top-langs/?username=letdevx&layout=compact&theme=cobalt"/>
 </div> 
 
-
- Snake Animation
-  - uses: Platane/snk@master
-    id: snake-gif
-    with:
-      github_user_name: letdevx
-      svg_out_path: dist/github-contribution-grid-snake.svg
-  - uses: crazy-max/ghaction-github-pages@v2.1.3
-    with:
-      target_branch: output
-      build_dir: dist
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+![snake gif](https://github.com/letdevx/letdevx/blob/output/github-contribution-grid-snake-dark.svg)
